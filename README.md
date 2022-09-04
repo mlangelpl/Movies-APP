@@ -11,6 +11,8 @@ Pagina web de la información de peliculas usando Ionic y otras herramientas.
 ## Ver ejemplo en vivo
 - [https://movies-app-50836.web.app/](https://movies-app-50836.web.app/)
 
+  Diseñada para mobile.
+
 ## Licencia
 mlangelpl v1.0
 
