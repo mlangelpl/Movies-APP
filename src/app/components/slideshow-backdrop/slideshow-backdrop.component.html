@@ -1,0 +1,12 @@
+<swiper
+  [config]="slideOpt"
+  [keyboard]="true"
+  [zoom]="true"
+>
+  <ng-template *ngFor="let pelicula of peliculas | filtroImagen" swiperSlide>
+    <ion-card (click)="verDetalle(pelicula.id)">
+      <img [src]="pelicula.backdrop_path | imagen" />     
+    </ion-card>
+  </ng-template>
+</swiper>
+

@@ -1,0 +1,26 @@
+<swiper [config]="slideOpts" [keyboard]="true" [zoom]="true">
+  <ng-template *ngFor="let pares of peliculas | pares" swiperSlide>
+    <ion-row>
+      <ion-col size="12" *ngFor="let pelicula of pares">
+        <ion-card mode="md" (click)="verDetalle(pelicula.id)">
+          <img class="poster" [src]="pelicula.poster_path | imagen" />
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ng-template>
+  <ng-template class="slide-mas" swiperSlide>
+    <ion-row>
+      <ion-col style="height: 390px;" size="12">
+        <ion-button
+          color="tertiary shade"
+          expand="full"
+          class="btn-mas"
+          size="large"
+          (click)="onClick()"
+        >
+        <ion-icon name="play-skip-forward-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ng-template>
+</swiper>

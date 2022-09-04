@@ -1,0 +1,104 @@
+.poster-detalle-sobre {
+  position: relative;
+  top: -75px;
+  left: -10px;
+  margin-bottom: -75px;
+}
+
+.titulo {
+  width: 100%;
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding: 5px 5px 40px 5px;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.titulo h1 {
+  position: absolute;
+  top: 28px;
+  left: 5px;
+}
+
+.card-actor {
+  height: 210px;
+}
+
+.actor-name {
+  position: relative;
+  top: 15px;
+}
+
+.elipse3, .elipse4 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  
+  background: linear-gradient(170.53deg, #13607162 2.71%, rgba(186, 55, 190, 0.3) 97.75%);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 50%;
+
+  
+}
+.elipse3{
+    margin-right: 10px;
+}
+.elipse4{
+    margin-left: 10px;
+}
+.elipse4 ion-icon{
+    position: relative;
+    right: 5px;
+}
+.elipse3 ion-icon{
+    position: relative;
+    left: 4px;
+}
+ion-toolbar{
+    height: 60px;
+}
+
+.elipse1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: -132px;
+    top: 70px;
+    border-radius: 50%;
+    background: rgba(96, 255, 202, 0.4);
+    filter: blur(90px);
+    z-index: -1;
+  }
+  
+  .elipse2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: -132px;
+    top: 375px;
+    background: #fe53cb70;
+    filter: blur(200px);
+    z-index: -1;
+  }

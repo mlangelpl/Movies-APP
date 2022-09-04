@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "movies-app-50836": {
+      "hosting": {
+        "app": [
+          "movies-app-50836"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "movies-app-50836"
+  }
+}
